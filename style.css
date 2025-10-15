@@ -955,7 +955,7 @@
  .contactBoxtwo {
      border: 1px solid #ccc;
      padding: 2rem 4rem;
-     width: 100%;
+     width: 55rem;
      border: 1px solid black;
      background: #fff;
      text-align: center;
@@ -1271,6 +1271,7 @@
         font-weight: 500;
      }
 
+
     
      .heroSection{
         max-width: 100%;
@@ -1360,7 +1361,7 @@
     
          /* Form container: shrink and center */
          .contactBlocktwo {
-             /* width: 10%; */
+             width: 10%;
              /* shrink to 90% of screen */
              max-width: 500px;
              /* perfect fit for 319px screen */
@@ -1393,11 +1394,10 @@
              width: auto;
              /* fit container */
              /* padding: 14px; */
-             font-size: 18px;
+             font-size: 16px;
              /* border-radius: 5px; */
              /* border: 1px solid #ccc; */
              /* box-sizing: 20px; */
-             /* margin: auto; */
          }
     
          .contactBoxtwo button {
@@ -1449,21 +1449,3 @@
  @media (min-width: 1201px) {
      /* write code here */
  }
-
- /* html,
- body {
-     margin: 0;
-     padding: 0;
-     overflow-x: hidden;
- }
-
- * {
-     box-sizing: border-box;
- }
-
- section,
- div,
- img,
- table {
-     max-width: 100%;
- } */
