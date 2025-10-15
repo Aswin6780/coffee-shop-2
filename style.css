@@ -955,7 +955,7 @@
  .contactBoxtwo {
      border: 1px solid #ccc;
      padding: 2rem 4rem;
-     width: 55rem;
+     width: 100%;
      border: 1px solid black;
      background: #fff;
      text-align: center;
@@ -1271,9 +1271,7 @@
         font-weight: 500;
      }
 
-
-     
-
+    
      .heroSection{
         max-width: 100%;
             /* image won’t exceed container width */
@@ -1281,6 +1279,9 @@
             /* keeps aspect ratio */
             display: block;
             margin: 0 auto;
+            width: 100%;
+        
+            
      }
 
      
@@ -1308,7 +1309,7 @@
 
      .menuBoxtwo {
          /* width: 90%; */
-         margin-left: 2rem;
+         /* margin-left: 1rem; */
      }
 
      .menuBoxtwo p {
@@ -1321,7 +1322,8 @@
      }
 
      .popularBoxone figure img {
-        
+        width: 60%;
+        margin: auto;
      }
 
      .galleryBlockone {
@@ -1358,19 +1360,23 @@
     
          /* Form container: shrink and center */
          .contactBlocktwo {
-             width: 90%;
+             /* width: 10%; */
              /* shrink to 90% of screen */
              max-width: 500px;
              /* perfect fit for 319px screen */
              padding: 10px;
              margin: 0 auto;
              /* center horizontally */
-             box-sizing: border-box;
+             /* box-sizing: border-box; */
              background-color: #fff;
              /* optional for better look */
              border-radius: 8px;
              /* optional */
-             box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+         }
+
+         .contactBoxtwo h2{
+            font-size: 3rem;
          }
     
          /* Form itself */
@@ -1379,17 +1385,19 @@
              flex-direction: column;
              width: 100%;
              gap: 10px;
+             /* padding: 4rem; */
          }
     
          .contactBoxtwo input,
          .contactBoxtwo button {
-             width: 100%;
+             width: auto;
              /* fit container */
-             padding: 8px;
-             font-size: 14px;
+             /* padding: 14px; */
+             font-size: 18px;
              /* border-radius: 5px; */
              /* border: 1px solid #ccc; */
-             box-sizing: border-box;
+             /* box-sizing: 20px; */
+             /* margin: auto; */
          }
     
          .contactBoxtwo button {
@@ -1401,7 +1409,7 @@
          }
     
          .contactBoxtwo button:hover {
-             background-color: #54382b;
+             background-color: #000000;
          }
     
          /* Optional: shrink the image above the form */
@@ -1411,6 +1419,10 @@
              height: auto;
              display: block;
              margin: 0 auto;
+         }
+
+         .iconBox p{
+            text-align: center;
          }
  }
 
@@ -1437,3 +1449,21 @@
  @media (min-width: 1201px) {
      /* write code here */
  }
+
+ /* html,
+ body {
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ section,
+ div,
+ img,
+ table {
+     max-width: 100%;
+ } */
