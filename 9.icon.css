@@ -1,0 +1,192 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+
+.icon{
+   padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+
+.iconContainer{
+    max-width: 1200px;
+    margin: auto;
+    width: 80%;
+}
+
+/* Step4: row */
+
+.iconBody{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin: 2rem 0rem;
+}
+
+/* Step5: column-1*/
+
+.iconBlockone{
+
+}
+
+/* Step6: subColumn */
+
+.iconBoxone{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.iconBoxone i{
+    font-size: 6rem;
+    color:#be9c79;
+    margin-bottom: 1rem;
+
+}
+
+.iconBoxone h3{
+    margin: 2rem 0rem;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.iconBoxone p{
+    font-size: 2rem;
+}
+
+/* Step5: column-2*/
+
+.iconBlocktwo {
+   
+}
+
+/* Step6: subColumn */
+
+.iconBoxtwo{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.iconBoxtwo i{
+   font-size: 6rem;
+   color: #be9c79;
+    margin-bottom: 1rem;
+}
+
+.iconBoxtwo h3{
+    margin: 2rem 0rem;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.iconBoxtwo p{
+    font-size: 2rem;
+}
+/* Step5: column-3*/
+
+.iconBlockthree{
+
+}
+
+/* Step6: subColumn */
+
+.iconBoxthree{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.iconBoxthree i{
+    font-size: 6rem;
+    color: #be9c79;
+    margin-bottom: 1rem;
+}
+
+.iconBoxthree h3{
+    margin: 2rem 0rem;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.iconBoxthree p{
+    font-size: 2rem;
+}
+
+/* Step5: column-4*/
+
+.iconBlockfour{
+
+}
+
+/* Step6: subColumn */
+
+.iconBoxfour{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.iconBoxfour i{
+    font-size: 6rem;
+    color: #be9c79;
+    margin-bottom: 1rem;
+}
+
+.iconBoxfour h3{
+    margin: 2rem 0rem;
+    font-weight: normal;
+    /* font-weight: bold; */
+    font-size: 2rem;
+}
+
+.iconBoxfour p{
+    font-size: 2rem;
+}
+
+
+.iconBodytwo{
+
+}
+
+/* Step5: column*/
+
+.iconBlock{
+display: flex;
+justify-content: center;
+border-top: 2px solid rgb(12, 12, 12);
+}
+
+/* Step6: subColumn */
+
+.iconBox{
+   /* margin: 2rem 0rem; */
+/* justify-content: end; */
+    /* background-color: antiquewhite; */
+    height: 3vh;
+}
+
+.iconBox p{
+   font-size: 2rem;
+display: flex;
+    align-items: end;
+    margin: 2rem 0rem;
+    align-items: end;
+
+}

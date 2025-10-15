@@ -1,0 +1,244 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+
+.ourFacility{
+    padding: 3rem 0rem;
+    /* background-color: blueviolet; */
+}
+
+/* Step3: componentContainer */
+
+.facilityContainer{
+     max-width: 1200px;
+     margin: auto;
+
+}
+
+/* Step4: row */
+
+.facilityBody{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Step5: column-1*/
+
+.facilityBlock{
+   
+
+}
+
+/* Step6: subColumn */
+
+.facilityBox{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+}
+
+.facilityBox figure{
+        width: 50%;
+}
+
+.facilityBox figure img{
+   
+        
+        
+}
+
+.facilityBox h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-family:  "Merienda", cursive;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+
+.facilityBodytwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* Step5: column-2*/
+
+.facilityBlockone{
+
+}
+
+/* Step6: subColumn */
+
+.facilityBoxone{
+
+}
+
+.facilityBoxone figure{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.facilityBoxone figure img{
+    
+}
+
+.facilityBoxone h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0rem;
+        font-weight: normal;
+        font-size: 2rem;
+        font-weight: 500;
+
+}
+
+.facilityBoxone p{
+       /* margin: 0rem 10rem; */
+       margin-left: 2rem;
+       /* word-spacing: 2rem; */
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+    
+}
+/* Step5: column-3*/
+
+.facilityBlocktwo{
+
+}
+
+/* Step6: subColumn */
+
+.facilityBoxtwo{
+
+}
+
+.facilityBoxtwo figure{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.facilityBoxtwo figure img{
+
+}
+
+.facilityBoxtwo h3 {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0rem;
+        font-weight: normal;
+        font-size: 2rem;
+        font-weight: 500;
+
+}
+
+.facilityBoxtwo p {
+    margin-left: 2rem;
+    
+}
+
+/* Step5: column-4*/
+
+.facilityBlockthree{
+
+}
+
+/* Step6: subColumn */
+
+.facilityBoxthree{
+
+}
+
+.facilityBoxthree figure{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.facilityBoxthree figure img{
+
+}
+
+.facilityBoxthree h3{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0rem;
+        font-weight: normal;
+        font-size: 2rem;
+        font-weight: 500;
+
+}
+
+.facilityBoxthree p {
+    margin-left: 2rem;
+
+}
+
+/* Step5: column-5*/
+
+.facilityBlockfour{
+
+}
+
+/* Step6: subColumn */
+
+.facilityBoxfour{
+
+}
+
+.facilityBoxfour figure{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.facilityBoxfour figure img{
+        
+
+}
+
+.facilityBoxfour h3{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0rem;
+            font-weight: normal;
+            font-size: 2rem;
+            font-weight: 500;
+       
+}
+
+.facilityBoxfour p{
+    margin-left: 2rem;
+}

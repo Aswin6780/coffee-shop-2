@@ -1,0 +1,102 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+
+.contact{
+   padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+
+.contactContainer{
+     max-width: 1200px;
+     margin: auto;
+}
+
+/* Step4: row */
+
+.contactBody{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+/* Step5: column-1*/
+
+.contactBlock{
+
+}
+
+/* Step6: subColumn */
+
+.contactBox{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+}
+
+.contactBox figure{
+     width: 50%;
+}
+
+.contactBox figure img{
+
+}
+
+.contactBox h2{
+     
+    font-size: 4rem;
+        font-family: "Merienda", cursive;
+        font-weight: 900;
+        margin-bottom: 1rem;
+}
+
+.contactBodytwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.contactBlockone{
+
+}
+
+.contactBoxone{
+
+}
+
+.contactBoxone figure{
+
+}
+
+.contactBoxone figure img{
+
+}
+
+/* Step5: column-2*/
+
+.contactBlocktwo{
+
+}
+
+/* Step6: subColumn */
+
+.contactBoxtwo{
+
+}

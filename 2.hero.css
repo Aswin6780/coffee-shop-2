@@ -1,0 +1,119 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+
+.heroSection {
+    /* background-color: brown; */
+    background-image: url(./assets/images/home-bg.jpg);
+    padding: 21rem 0rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Merienda", cursive;
+
+
+}
+
+/* Step3: componentContainer */
+
+.heroContainer {
+    /* background-color: aqua; */
+
+
+}
+
+/* Step4: row */
+
+.heroBody {
+    /* background-color: chartreuse; */
+    /* margin: 5rem 5 rem; */
+    /* min-height: 70rem; */
+
+
+}
+
+/* Step5: column-1*/
+
+.heroblock {
+
+    width: 60rem;
+    /* min-height: 70rem; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+    /* margin-bottom: 5rem; */
+    /* background-color: aquamarine; */
+    /* margin-bottom: 5rem; */
+}
+
+/* Step6: subColumn */
+
+.heroBox {
+    /* min-height: 10rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+
+
+
+.heroBox h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Merienda", cursive;
+    font-size: 7rem;
+    color: var(black);
+    font-weight: 900;
+
+}
+
+.heroBox p {
+    /* padding: 1rem 0; */
+    font-size: 1.5rem;
+    color: black;
+    font-family: var(--ffPrimary);
+    /* line-height: 2; */
+    /* padding-bottom: 10rem 0rem; */
+
+
+}
+
+.heroBox button {
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: #be9c79;
+    cursor: pointer;
+    /* color: var(white); */
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border: none;
+
+    /* background: transparent; */
+
+
+}
+
+.heroBox button:hover {
+    background-color: black;
+    color: white;
+
+}

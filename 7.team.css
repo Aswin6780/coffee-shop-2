@@ -1,0 +1,239 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+
+
+.team{
+    padding: 3rem 0rem;
+
+}
+
+/* Step3: componentContainer */
+
+.teamContainer{
+   max-width: 1200px;
+   margin: auto;
+   width: 60%;
+}
+
+/* Step4: row */
+
+.teamBody{
+  /* display: grid; */
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Step5: column-1*/
+
+.teamBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 80%; */
+
+}
+
+.teamBox figure{
+    
+}
+
+.teamBox figure img{
+
+}
+
+.teamBox h2{
+      font-size: 4rem;
+      font-family: "Merienda", cursive;
+      font-weight: 900;
+      margin-bottom: 1rem;
+}
+
+.teamBodytwo{
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 3rem;
+}
+
+/* Step5: column-1*/
+
+.teamBlockone{
+
+}
+
+/* Step6: subColumn */
+
+.teamBoxone{
+
+}
+
+.teamBoxone figure{
+
+}
+
+.teamBoxone figure img{
+
+}
+
+.teamBoxone h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+/* Step5: column-2*/
+
+.teamBlocktwo{
+
+}
+
+/* Step6: subColumn */
+
+.teamBoxtwo{
+
+}
+
+.teamBoxtwo figure{
+
+}
+
+.teamBoxtwo figure img{
+
+}
+
+.teamBoxtwo h3{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: normal;
+      font-size: 2rem;
+}
+
+/* Step5: column-3*/
+
+.teamBlockthree{
+
+}
+
+/* Step6: subColumn */
+
+.teamBoxthree{
+
+}
+
+.teamBoxthree figure{
+
+}
+
+.teamBoxthree figure img{
+
+}
+
+.teamBoxthree h3{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: normal;
+      font-size: 2rem;
+}
+
+/* Step5: column-4*/
+
+.teamBlockfour{
+     
+}
+
+/* Step6: subColumn */
+
+.teamBoxfour{
+      margin-bottom: 2rem;
+}
+
+.teamBoxfour figure{
+}
+
+.teamBoxfour figure img{
+
+}
+
+.teamBoxfour h3{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: normal;
+      font-size: 2rem;
+     
+}
+
+/* Step5: column-5*/
+
+.teamBlockfive{
+
+}
+
+/* Step6: subColumn */
+
+.teamBoxfive{
+
+}
+
+.teamBoxfive figure{
+
+}
+
+.teamBoxfive figure img{
+
+}
+
+.teamBoxfive h3{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: normal;
+      font-size: 2rem;
+}
+
+/* Step5: column-6*/
+
+.teamBlocksix{
+
+}
+
+/* Step6: subColumn */
+
+.teamBoxsix{
+
+}
+
+.teamBoxsix figure{
+
+}
+
+.teamBoxsix figure img{
+
+}
+
+.teamBoxsix h3{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 2rem;
+}

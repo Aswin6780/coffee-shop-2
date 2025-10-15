@@ -1,0 +1,276 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+
+.popularMenu{
+   padding: 3rem 0rem;
+
+}
+
+/* Step3: componentContainer */
+
+.popularContainer{
+   max-width: 1200px;
+   margin: auto;
+   width: 65%;
+   
+}
+
+/* Step4: row */
+
+.popularBody{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   display: flex;
+      align-items: center;
+      justify-content: center;
+   
+}
+
+/* Step5: column-1*/
+
+.popularBlock{
+   
+
+}
+
+/* Step6: subColumn */
+
+.popularBox{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   
+
+}
+
+.popularBox figure{
+     width: 50%;
+}
+
+.popularBox figure img{
+    
+}
+
+.popularBox h2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+      font-family: "Merienda", cursive;
+      font-weight: 900;
+
+}
+
+.popularBodytwo{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   
+}
+/* Step5: column-1*/
+
+.popularBlockone{
+
+   display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+}
+/* Step6: subColumn */
+
+.popularBoxone{
+
+}
+
+.popularBoxone figure{
+   margin: 0rem 2rem;
+
+   
+}
+
+.popularBoxone figure img{
+
+}
+
+.popularBoxone h3{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-weight: normal;
+
+}
+
+/* Step5: column-2*/
+
+.popularBlocktwo{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+/* Step6: subColumn */
+
+.popularBoxtwo{
+
+}
+
+.popularBoxtwo figure{
+   margin: 0rem 2rem;
+
+}
+
+.popularBoxtwo figure img{
+
+}
+
+.popularBoxtwo h3{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-weight: normal;
+
+}
+
+/* Step5: column-3*/
+
+.popularBlockthree{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+/* Step6: subColumn */
+
+.popularBoxthree{
+
+}
+
+.popularBoxthree figure{
+   margin: 0rem 2rem;
+
+}
+
+.popularBoxthree figure img{
+
+}
+
+.popularBoxthree h3{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: normal;
+
+}
+
+/* Step5: column-4*/
+
+.popularBlockfour{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+/* Step6: subColumn */
+
+.popularBoxfour{
+
+}
+
+.popularBoxfour figure{
+   margin: 0rem 2rem;
+
+}
+
+.popularBoxfour figure img{
+
+}
+
+.popularBoxfour h3{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-weight: normal;
+
+}
+
+/* Step5: column-5*/
+
+.popularBlockfive{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+/* Step6: subColumn */
+
+.popularBoxfive{
+
+}
+
+.popularBoxfive figure{
+   margin: 0rem 2rem;
+
+}
+
+.popularBoxfive figure img{
+
+}
+
+.popularBoxfive h3{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-weight: normal;
+
+}
+
+/* Step5: column-6*/
+
+.popularBlocksix{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+/* Step6: subColumn */
+
+.popularBoxsix{
+
+}
+
+.popularBoxsix figure{
+   margin: 0dvh 2rem;
+
+}
+
+.popularBoxsix figure img{
+
+}
+
+.popularBoxsix h3{
+   display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-weight: normal;
+
+}

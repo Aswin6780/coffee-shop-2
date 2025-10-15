@@ -1,0 +1,114 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+/* step-1 parent container */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: rgb(210, 174, 243);
+} */
+
+/* step-2:components */
+.navBar {
+    /* background-color:aqua; */
+
+}
+
+/* Step3: componentContainer */
+.navContainer {
+    /* background-color: rgb(23, 89, 212); */
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+/* Step4: row */
+.navBody {
+    /* background-color:crimson; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2.8rem 0rem;
+    /* background-color: aqua; */
+    /* height: 5vh; */
+}
+
+/* Step5: column-1*/
+.navBlock {
+    /* background-color:chartreuse; */
+    /* width: 50%; */
+
+}
+
+/* Step6: subColumn */
+.navBox {
+    /* background-color:gold; */
+    margin-left: 6rem;
+}
+
+/* Step7:contentContainer */
+.navBox a {
+    /* background-color: rgb(231, 252, 44); */
+
+}
+
+.navBox figure {
+    /* background-color: rgb(231, 252, 44); */
+
+}
+
+.navBox figure img {
+    /* background-color: rgb(231, 252, 44); */
+    width: auto;
+    height: 5rem;
+
+}
+
+
+
+/* Step5: column-2*/
+.navLinkBlock {
+    /* background-color: rgb(176, 112, 250); */
+
+}
+
+/* Step6: subColumn*/
+.navLinkBox {
+    /* background-color: rgb(93, 170, 78); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--ffSecondary);
+}
+
+.navLinkBox ul {
+    /* background-color: rgb(118, 240, 240); */
+    font-family:"Nunito Sans", sans-serif;
+
+}
+
+.navLinkBox ul li {
+    /* background-color: rgb(118, 240, 240); */
+    
+}
+
+.navLinkBox ul li a {
+    /* background-color: rgb(118, 240, 240); */
+     text-decoration: none;
+
+}
+
+.navLinks {
+    display: flex;
+    /* background-color: aqua; */
+    gap: 20px;
+    font-size: 20px;
+   
+        
+}
