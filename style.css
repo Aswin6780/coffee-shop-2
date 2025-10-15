@@ -935,6 +935,10 @@
      padding: 3rem 0rem;
  } */
 
+ .contact{
+    width: 90%;
+    margin: auto;
+ }
 
  .contactContainer {
      /* max-width: 1200px;
@@ -1331,10 +1335,15 @@
          margin: auto;
      }
 
+
+    .formGroup button{
+        font-size: 2rem;
+    }
+
      .contactBoxtwo{
         width: 90%;
         margin: auto;
-        height: auto;
+        /* height: auto; */
      }
 
      .iconBlock {
