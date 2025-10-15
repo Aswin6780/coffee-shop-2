@@ -1340,23 +1340,78 @@
         font-size: 2rem;
     }
 
-     .contactBoxtwo{
-        width: 90%;
-        margin: auto;
-        /* height: auto; */
-     }
+   
+    
 
-     .iconBlock {
-         border-top: 2px solid rgb(12, 12, 12);
-         width: 90%;
-         margin: auto;
-     }
-
-     .iconBodytwo p {
-         /* margin-top: 2rem; */
-         text-align: center;
-
-     }
+         .contactBodytwo {
+             display: flex;
+             flex-direction: column;
+             /* stack items */
+             align-items: center;
+             /* center horizontally */
+             gap: 15px;
+             /* space between image and form */
+             width: 100%;
+             padding: 0;
+             box-sizing: border-box;
+         }
+    
+         /* Form container: shrink and center */
+         .contactBlocktwo {
+             width: 90%;
+             /* shrink to 90% of screen */
+             max-width: 500px;
+             /* perfect fit for 319px screen */
+             padding: 10px;
+             margin: 0 auto;
+             /* center horizontally */
+             box-sizing: border-box;
+             background-color: #fff;
+             /* optional for better look */
+             border-radius: 8px;
+             /* optional */
+             box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+         }
+    
+         /* Form itself */
+         .contactBoxtwo form {
+             display: flex;
+             flex-direction: column;
+             width: 100%;
+             gap: 10px;
+         }
+    
+         .contactBoxtwo input,
+         .contactBoxtwo button {
+             width: 100%;
+             /* fit container */
+             padding: 8px;
+             font-size: 14px;
+             /* border-radius: 5px; */
+             /* border: 1px solid #ccc; */
+             box-sizing: border-box;
+         }
+    
+         .contactBoxtwo button {
+             background-color: #be9c79;
+             color: #fff;
+             border: none;
+             cursor: pointer;
+             transition: background 0.3s;
+         }
+    
+         .contactBoxtwo button:hover {
+             background-color: #54382b;
+         }
+    
+         /* Optional: shrink the image above the form */
+         .contactBlockone img {
+             width: 90%;
+             /* fit smaller screens */
+             height: auto;
+             display: block;
+             margin: 0 auto;
+         }
  }
 
  /* Medium devices (tablets, upto 768px and above) */
